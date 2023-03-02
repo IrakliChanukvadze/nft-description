@@ -6,7 +6,7 @@ import { TbArrowsLeftRight } from "react-icons/tb";
 
 const MainRight = () => {
   return (
-    <div className="flex-1 flex flex-col gap-4">
+    <div className="flex-1 flex flex-col gap-6 tablet:gap-4">
       <div className="flex flex-col gap-4 p-6 bg-bgSecondary rounded-[10px]">
         <div className="flex flex-col ">
           <div className="flex justify-between ">

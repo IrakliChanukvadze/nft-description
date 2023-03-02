@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      tablet: "800px",
+    },
     colors: {
       secondary: "rgba(255, 255, 255, 0.4)",
       primary: " #fff",
